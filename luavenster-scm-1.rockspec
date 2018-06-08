@@ -19,7 +19,8 @@ description = {
 
 dependencies = {
    "lua >= 5.1",
-   "luawinapi >= 1.0.0"
+   "luawinapi ~> 1.3",
+   "bit32"
 }
 
 build = {
@@ -33,6 +34,7 @@ build = {
                     ["venster.utils"]     = "src/utils.lua",
                     ["venster.layout"]    = "src/layout.lua",
                     ["venster.imagelist"] = "src/imagelist.lua",
+                    ["venster.winres"]    = "src/winres.lua",
                 }
             }
         }
