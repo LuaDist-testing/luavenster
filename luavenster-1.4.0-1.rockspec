@@ -2,17 +2,17 @@
 
 package = "luavenster"
 
-version = "1.3.1-1"
+version = "1.4.0-1"
 
 -- LuaDist source
 source = {
-  tag = "1.3.1-1",
+  tag = "1.4.0-1",
   url = "git://github.com/LuaDist-testing/luavenster.git"
 }
 -- Original source
 -- source = {
---   url    = "git://github.com/oberhofer/luavenster.git",
---   tag = "v1.3.1",
+--     url    = "git://github.com/oberhofer/luavenster.git",
+--     branch = "v1.4.0"
 -- }
 
 description = {
@@ -27,7 +27,7 @@ description = {
 
 dependencies = {
    "lua >= 5.1",
-   "luawinapi ~> 1.3",
+   "luawinapi ~> 1.4",
    "bit32"
 }
 
